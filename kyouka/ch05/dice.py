@@ -9,7 +9,7 @@ def sample(dices=2):
 trial = 1000
 V, n = 0, 0
 
-for _ in range(trial):about:blank#blocked
+for _ in range(trial):
     s = sample()
     n += 1
     V += (s - V) / n
